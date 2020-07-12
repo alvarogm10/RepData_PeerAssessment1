@@ -1,6 +1,5 @@
 # Reproducible Research: Peer Assessment 1
 
-
 ## Loading and preprocessing the data
 
 The activity data represents personal activity measured by a monitoring device. The measurements are taken every 5 minutes during two months, counting the steps of a subject. The variables in the dataset are:
