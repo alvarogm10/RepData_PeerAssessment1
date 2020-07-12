@@ -1,9 +1,5 @@
----
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
+# Reproducible Research: Peer Assessment 1
+
 
 ## Loading and preprocessing the data
 
@@ -15,12 +11,12 @@ The activity data represents personal activity measured by a monitoring device. 
 
 First we have to load the activity data in .csv:
 
-```{r libs,echo=FALSE}
+```{r libs,echo=FALSE,message=FALSE}
 library(rmarkdown)
 library(dplyr)
 library(RColorBrewer)
 co <- brewer.pal(5,"BuPu")[3]
-color <- brewer.pal(2,"Set1")
+color <- brewer.pal(3,"Set1")
 ```
 
 ```{r read,echo=TRUE}

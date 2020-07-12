@@ -16,9 +16,6 @@ The activity data represents personal activity measured by a monitoring device. 
 First we have to load the activity data in .csv:
 
 
-```
-## Warning in brewer.pal(2, "Set1"): minimal value for n is 3, returning requested palette with 3 different levels
-```
 
 
 ```r
